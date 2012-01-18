@@ -1,0 +1,6 @@
+#!/bin/bash
+THISDIR="$(cd `dirname "$0"` && pwd)"
+ROOTDIR="$( dirname "$THISDIR" )"
+
+cp --recursive "$ROOTDIR/vim/third_party/vim-pathogen/autoload" "$ROOTDIR/vim/.vim/"
+echo 'OK'

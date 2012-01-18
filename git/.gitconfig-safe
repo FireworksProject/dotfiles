@@ -1,0 +1,8 @@
+[user]
+	email = kris@kixx.name
+	name = Kristoffer Walker
+[merge]
+	tool = vimdiff
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_master

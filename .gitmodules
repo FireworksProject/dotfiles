@@ -1,0 +1,6 @@
+[submodule "vim/third_party/vim-pathogen"]
+	path = vim/third_party/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+[submodule "vim/.vim/bundle/vim-coffee-script"]
+	path = vim/.vim/bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
