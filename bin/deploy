@@ -17,4 +17,11 @@ echo 'updating ~/.vimrc'
 cp $ROOTDIR/vim/.vimrc $HOME/.vimrc
 
 echo 'updating ~/.vim/'
-cp --recursive $ROOTDIR/vim/.vim $HOME/
+rsync \
+    --recursive \
+    --links \
+    --perms \
+    --times \
+    --owner \
+    --exclude="/.git***" \
+    $ROOTDIR/vim/.vim $HOME/
