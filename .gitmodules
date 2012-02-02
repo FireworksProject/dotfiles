@@ -4,3 +4,6 @@
 [submodule "vim/.vim/bundle/vim-coffee-script"]
 	path = vim/.vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/third_party/vim-javascript"]
+	path = vim/third_party/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git

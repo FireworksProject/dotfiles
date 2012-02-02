@@ -2,5 +2,6 @@
 THISDIR="$(cd `dirname "$0"` && pwd)"
 ROOTDIR="$( dirname "$THISDIR" )"
 
-cp --recursive "$ROOTDIR/vim/third_party/vim-pathogen/autoload" "$ROOTDIR/vim/.vim/"
+cp -R "$ROOTDIR/vim/third_party/vim-pathogen/autoload" "$ROOTDIR/vim/.vim/"
+cp "$ROOTDIR/vim/third_party/vim-javascript/indent/javascript.vim" "$ROOTDIR/vim/.vim/indent/"
 echo 'OK'
