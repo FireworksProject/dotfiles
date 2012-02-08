@@ -4,6 +4,7 @@ Dotfiles
 Some of the dotfile configurations used by Fireworks Project team members. Feel free to poke around, and if you have any tips... share the love.
 
 ### To Update the Vim Scripts
+Note: This is optional, and only required if you are an author of this repository and have made changes to pathogen or vim-coffee-script.
 
     cd vim/third_party/vim-pathogen
     git pull origin master
