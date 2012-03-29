@@ -10,6 +10,9 @@ else
     cp $ROOTDIR/.bashrc $HOME/.bashrc
 fi
 
+echo 'updating ~/.gitconfig'
+cp $ROOTDIR/git/.gitconfig_safe $HOME/.gitconfig
+
 echo 'updating ~/.gitignore_master'
 cp $ROOTDIR/git/.gitignore_master $HOME/.gitignore_master
 

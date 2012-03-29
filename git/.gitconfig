@@ -1,3 +1,6 @@
+[user]
+	email = kris@kixx.name
+	name = Kristoffer Walker
 [merge]
 	tool = vimdiff
 [core]
