@@ -11,7 +11,7 @@ else
 fi
 
 echo 'updating ~/.gitconfig'
-cp $ROOTDIR/git/.gitconfig_safe $HOME/.gitconfig
+cp $ROOTDIR/git/.gitconfig-safe $HOME/.gitconfig
 
 echo 'updating ~/.gitignore_master'
 cp $ROOTDIR/git/.gitignore_master $HOME/.gitignore_master
