@@ -2,6 +2,19 @@
 THISDIR="$(cd `dirname "$0"` && pwd)"
 ROOTDIR="$( dirname "$THISDIR" )"
 
+fail () {
+	echo "$@" >&2
+	exit 1
+}
+
+ensure_dir () {
+    if ! [ -d "$1" ]; then
+        mkdir -p -- "$1" || fail "couldn't create $1"
+    fi
+}
+
+ensure_dir "$ROOTDIR/vim/.vim/indent"
+
 echo 'updating pathogen'
 cp -R "$ROOTDIR/vim/third_party/vim-pathogen/autoload" \
     "$ROOTDIR/vim/.vim/"
