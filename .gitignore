@@ -1,0 +1,21 @@
+# Ignore TextMate project files
+*.tmproj
+
+# Ignore Mac OS metadata files
+.DS_Store
+
+# Ignore Mac OS X extended file attribute files
+._*
+._*/
+
+# Ignore Vim .swp files and temp backups
+*.swp
+*~
+
+# Emacs tags files
+TAGS
+*.tags
+
+# Ignore certain vim files which are updated via the update script.
+vim/.vim/indent/javascript.vim
+vim/.vim/syntax/javascript.vim
